@@ -1,0 +1,161 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+*,
+*:after,
+*:before {
+  --webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+.navbar {
+  background-color:#1089b1;
+  /* border-bottom: 3px solid #4dabab; */
+}
+.nav-link {
+  color: #dde0d7;
+}
+.nav-link:hover {
+  color: #baeaf4;
+}
+.navbar-brand img {
+  height: 50px;
+}
+ /* .navbar-toggler {
+  background-color: #fff;
+  border-color: rgb(255, 102, 203);
+}
+.navbar-toggler-icon {
+  background-color: black;
+  border-color: rgb(255, 102, 203);
+}  */
+.navbar-toggler {
+  width: 15%;
+}
+.navbar-toggler img {
+  padding: 0%;
+  height: 60%;
+  width: 80%;
+  border: none;
+}
+.home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/project/img/background1.jpg);
+  background-size: cover;
+  display: grid;
+  background-attachment: fixed;
+  width: 100%;
+  height: 660px;
+  /* background-size: cover;
+  display: grid;
+  place-items: center;*/
+}
+.tag {
+  padding-top: 10%;
+  box-sizing: border-box;
+}
+.tag h1{
+  font-size: 60px;
+  color: #dde0d7;
+  font-weight: 600;
+}
+.tag h3 {
+  font-size: 40px;
+  color: #dde0d7;
+  font-weight: 600;
+}
+.search {
+  position: relative;
+  margin-top: 4%;
+}
+.search input {
+  padding: 1.2%;
+  width: 30%;
+}
+.search button {
+  background-color:#4dabab;
+  padding: 1.1%;
+}
+/* .search {
+  position: absolute;
+  margin-top: 4%;
+  display: flex;
+}
+.search input {
+  padding: 8%;
+  width: 300px;
+  height: 60px;
+} */
+.info {
+  margin: 5%;
+}
+.icon {
+  height: 20%;
+  width: 20%;
+  padding-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.info h1 {
+  font-size: 300%;
+}
+.flagimg {
+  height: 8%;
+  width: 8%;
+}
+.card {
+  margin-top: 15%;
+  margin-left: 15%;
+  border: 4px solid #4dabab;
+  box-shadow: 5px 10px #d6d4d4;
+}
+.card:hover {
+  width: 90%;
+  box-shadow: none;
+}
+.card h3 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8%;
+  font-size: 130%;
+}
+.card h2 {
+  margin-left: auto;
+  margin-right: auto;
+  color: #1089b1;
+  font-size: 130%;
+}
+footer {
+  background-color:#4dabab;
+}
+footer h5 {
+  color: #dde0d7;
+}
+.dispChart {
+  margin: 10%;
+  height: 20%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.covid ul {
+  list-style-type: none
+}
+.covidimg {
+  height: 10%;
+  width: 10%;
+}
+.covidimg fl {
+  float: right;
+}
